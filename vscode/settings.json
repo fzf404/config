@@ -1,0 +1,52 @@
+{
+  "window.nativeTabs": true, // 标签页集合
+  "files.autoSave": "afterDelay", // 自动保存
+  "workbench.startupEditor": "none", // 启动页展示
+  "workbench.sideBar.location": "right", // 侧边栏位置
+  "workbench.colorTheme": "Ayu Dark", // 颜色主题
+  "workbench.iconTheme": "material-icon-theme", // 图标主题
+  // 编辑器
+  "editor.tabSize": 2, // 缩进大小
+  "editor.fontSize": 12, // 字体大小
+  "editor.formatOnSave": true, // 自动格式化
+  "editor.linkedEditing": true, // 标签更新
+  "editor.inlineSuggest.enabled": true, // 内链建议
+  "editor.fontFamily": "JetBrains Mono", // 字体名称
+  "editor.cursorSmoothCaretAnimation": "on", // 平滑光标
+  // 文件浏览器
+  "explorer.confirmDelete": false, // 确认删除
+  "explorer.compactFolders": false, // 自动折叠
+  "explorer.confirmDragAndDrop": false, // 确认移动
+  "security.workspace.trust.untrustedFiles": "open", // 信任文件
+  // 终端
+  "terminal.integrated.fontSize": 12, // 字体大小
+  "terminal.integrated.tabs.location": "left", // 终端选项卡位置
+  "terminal.integrated.fontFamily": "Hack Nerd Font", // 终端字体
+  "terminal.integrated.defaultProfile.osx": "fish", // Mac 默认终端
+  "terminal.integrated.defaultProfile.linux": "fish", // Linux 默认终端
+  "terminal.integrated.defaultProfile.windows": "PowerShell", // Windows 默认终端
+  // 代码
+  "git.autofetch": true, // 自动拉取
+  "git.autoStash": true, // 自动合并
+  "git.confirmSync": false, // 确认同步
+  "git.enableSmartCommit": true, // 智能提交
+  // 格式化
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[fish]": {
+    "editor.defaultFormatter": "bmalehorn.vscode-fish"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[caddyfile]": {
+    "editor.defaultFormatter": "matthewpi.caddyfile-support"
+  },
+  // 语言
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always"
+}

@@ -1,0 +1,21 @@
+import:
+  - ~/.config/alacritty/themes/ayu_dark.yaml
+
+window:
+  startup_mode: Fullscreen
+
+font:
+  size: 14
+  normal:
+    family: Hack Nerd Font Mono
+  bold:
+    family: Hack Nerd Font Mono
+  italic:
+    family: Hack Nerd Font Mono
+
+shell:
+  program: /opt/homebrew/bin/fish
+  args:
+    - -l
+    - -c
+    - zellij
