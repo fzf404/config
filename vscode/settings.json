@@ -10,9 +10,11 @@
   "editor.fontSize": 12, // 字体大小
   "editor.formatOnSave": true, // 自动格式化
   "editor.linkedEditing": true, // 标签更新
+  "editor.accessibilitySupport": "off", // 无障碍支持
   "editor.inlineSuggest.enabled": true, // 内链建议
   "editor.fontFamily": "JetBrains Mono", // 字体名称
   "editor.cursorSmoothCaretAnimation": "on", // 平滑光标
+  "window.customTitleBarVisibility": "never", // 标题栏
   // 文件浏览器
   "explorer.confirmDelete": false, // 确认删除
   "explorer.compactFolders": false, // 自动折叠
@@ -30,6 +32,9 @@
   "git.autoStash": true, // 自动合并
   "git.confirmSync": false, // 确认同步
   "git.enableSmartCommit": true, // 智能提交
+  // 语言
+  "typescript.updateImportsOnFileMove.enabled": "always", // 自动更新引入
+  "javascript.updateImportsOnFileMove.enabled": "always", // 自动更新引入
   // 格式化
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
@@ -46,7 +51,12 @@
   "[caddyfile]": {
     "editor.defaultFormatter": "matthewpi.caddyfile-support"
   },
-  // 语言
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  // 代码运行
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMapByGlob": {
+    "*.md": "cd $dir && zhlint --fix $fileName"
+  },
+  // 文件折叠
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false
 }
